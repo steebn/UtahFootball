@@ -1,10 +1,10 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/user/public_html/UtahFootball
-    - /bin/cp Roster/images $DEPLOYPATH
-    - /bin/cp Roster/javascript $DEPLOYPATH
-    - /bin/cp Roster/styles $DEPLOYPATH
-    - /bin/cp Roster/index.html $DEPLOYPATH
-    - /bin/cp Roster/manifest.json $DEPLOYPATH
-    - /bin/cp Roster/service-worker.js $DEPLOYPATH
+    - export DEPLOYPATH=/home/user/public_html/UtahFootball/Roster
+    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R javascript $DEPLOYPATH
+    - /bin/cp -R styles $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp manifest.json $DEPLOYPATH
+    - /bin/cp service-worker.js $DEPLOYPATH
