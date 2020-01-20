@@ -2,7 +2,7 @@
     "name": "Utah Football Roster",
     "short_name": "Utah Roster",
     "lang": "en-US",
-    "start_url": "/index.html",
+    "start_url": "UtahFootball/Roster/index.html",
     "display": "standalone",
     "theme_color": "#FF0000",
     "background_color": "#FF0000",
